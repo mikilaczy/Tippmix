@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.offer-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(25% - 20px); /* 4 doboz egy sorban */
+}
+
+.offer-box h2 {
+    margin-top: 0;
+}
+
+.offer-box p {
+    margin-bottom: 15px;
+}
+
+.offer-box a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.offer-box a:hover {
+    text-decoration: underline;
+}
