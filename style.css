@@ -28,7 +28,8 @@ label {
 }
 
 input[type="text"],
-input[type="password"] {
+input[type="password"],
+input[type="email"] {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
@@ -58,4 +59,20 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+footer {   
+    display: flex;
+    justify-content: space-between; 
+    background-color: #333; 
+    color: white;
+    padding: 20px; }
+.footer-box{
+    flex: 1;
+    padding: 10px; 
+}
+.footer-box h3{ 
+    margin-top: 0; 
+}
+.footer-box p{
+     margin-bottom: 0;
 }

@@ -5,58 +5,33 @@ body {
     background-color: #f4f4f4;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
 .container {
-    margin: 20px auto;
-    max-width: 600px;
-    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
 }
 
-form {
-    margin-bottom: 20px;
+.offer-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(25% - 20px); /* 4 doboz egy sorban */
 }
 
-label {
-    display: block;
-    margin-bottom: 5px;
+.offer-box h2 {
+    margin-top: 0;
 }
 
-input[type="text"],
-input[type="password"],
-input[type="email"] {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+.offer-box p {
+    margin-bottom: 15px;
 }
 
-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    width: 100%;
-}
-
-button:hover {
-    background-color: #45a049;
-}
-
-a {
+.offer-box a {
     color: #007bff;
     text-decoration: none;
 }
 
-a:hover {
+.offer-box a:hover {
     text-decoration: underline;
 }

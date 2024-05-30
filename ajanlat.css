@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    margin: 20px;
+}
+
+.payment-options {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.payment-options h2 {
+    margin-top: 0;
+}
+
+.payment-options ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.payment-options ul li {
+    margin-bottom: 10px;
+}
+
+.payment-options ul li:before {
+    content: "\2022"; /* Bullet point karakter */
+    color: #007bff;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}

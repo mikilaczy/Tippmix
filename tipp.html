@@ -1,16 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Értesítés</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BET-MAN </title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h2>Kérjük, adja meg az E-mail címét!</h2>
-  <form id="emailForm">
-    <input type="email" id="email" placeholder="E-mail cím" required>
-    <button type="submit">Küldés</button>
-  </form>
-  <script src="ertesites.js"></script>
+    <header>
+        <h1>BET-MAN </h1>
+    </header>
+    <div class="container">
+        <section id="login-section">
+            <h2>Bejelentkezés</h2>
+            <form id="login-form">
+                <label for="username">Felhasználónév:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Jelszó:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Bejelentkezés</button>
+            </form>
+            <p>Még nincs fiókod? <a href="#" id="signup-link">Regisztráció</a></p>
+        </section>
+        <section id="signup-section" style="display: none;">
+            <h2>Regisztráció</h2>
+            <form id="signup-form">
+                <label for="new-username">Felhasználónév:</label>
+                <input type="text" id="new-username" name="new-username" required>
+                <label for="new-password">Jelszó:</label>
+                <input type="password" id="new-password" name="new-password" required>
+                <button type="submit">Regisztráció</button>
+            </form>
+            <p>Már van fiókod? <a href="#" id="login-link">Bejelentkezés</a></p>
+        </section>
+        
+    </div>
+    <footer>
+        <div class="footer-box">
+            <h3>Kapcsolat</h3>
+            <p>betman.suppport@gmail.com</p>
+        </div>
+        <div class="footer-box">
+            <h3>Rólunk</h3>
+            <p> <li>Egyedülálló tippek az országban, garantált profit.</li>
+                <li>Könnyítsd meg az életed, szerezz pénzt a szórakozás mellett.</li>
+                <li>Nálunk a szerencsejáték nem a szerencsén múlik.</li>
+                
+            </p>
+        </div>
+        <div class="footer-box">
+            <h3>Figyelem!</h3>
+            <p>Magyarországon a 18 év alattiak - a nem folyamatosan szervezett sorsolásos játék 
+                (tombola) kivételével - szerencsejátékban nem vehetnek részt. A 18 év alattiak 
+                fokozott védelmét a játékszervezők egyrészt a játékosok életkorának 
+                ellenőrzésével, másrészt a reklámokban, népszerűsítő anyagokban a 18 év alattiak 
+                játéktilalmára figyelmeztető felhívásokkal biztosítják.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
